@@ -49,7 +49,30 @@
   background: tan;
   text-align: center;
 }
-/* section_8 style */
-.section_8{
+
+
+
+
+/* footer_section_1 style */
+.footer_1{
+  display: flex;
+  justify-content: space-between;
+}
+/* footer_section_2 style */
+.footer_2{
   
+}
+.footer_2 ul{
+
+}
+.footer_2 ul li{
+
+}
+.footer_2 ul li a{
+  list-style: none;
+}
+/* footer_section_3 style */
+.footer_3{
+  display: flex;
+  justify-content: space-between;
 }
