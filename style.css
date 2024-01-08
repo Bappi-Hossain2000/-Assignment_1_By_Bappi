@@ -170,24 +170,116 @@ text-transform: capitalize;
   border-radius: 100%;
   padding: 10px;
 }
-.section_4 .s_d p{
+.section_4 .s_d2 h1{
+  color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
-.section_4 .s_d1{
+.section_4 .s_d2 p{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.section_4 .s_d2 img{
+  width: 140px;
+height: 140px;
+flex-shrink: 0;
 }
 /* section_5 style */
 .section_5{
-  background-image: url('img/Rectangle 1.png');
-  /* background-image: url('img/Rectangle\ 2.png'); */
   text-align: center;
 }
+.section_5 .s_5_text h4{
+  color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.section_5 .s_5_text h1{
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.section_5 .s_5_text h1 span{
+  color: #F00;
+}
+.section_5 .s_5_text p{
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+}
+
 /* section_6 style */
 .section_6{
   
+}
+.section_6 .s_6d1 h2{
+  color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.section_6 .s_6d1 h1{
+  color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.section_6 .s_6d1 p{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
 }
 /* section_7 style */
 .section_7{
   background: tan;
   text-align: center;
+}
+.section_7 img{
+  width: 150px;
+height: 150px;
+}
+.section_7 h1{
+  color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.section_7 p{
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
 }
 
 
@@ -197,6 +289,14 @@ text-transform: capitalize;
 .footer_1{
   display: flex;
   justify-content: space-between;
+}
+.footer_1 address{
+  /* color: #FFF; */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
 }
 /* footer_section_2 style */
 .footer_2{
