@@ -137,7 +137,40 @@ background: #F00;
 }
 .section_4 .s_d1{
 }
-.section_4 img{
+.section_4 .s_d1 h2{
+  color: #F00;
+/* text-align: center; */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.section_4 .s_d1 h1{
+  color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.section_4 .s_d1 p{
+  color: #070211;
+font-family: Merriweather;
+/* font-size: 48px; */
+font-style: normal;
+/* font-weight: 900; */
+line-height: normal;
+text-transform: capitalize;
+}
+
+.section_4 .S_4img{
+  border: red solid 5px;
+  border-radius: 100%;
+  padding: 10px;
+}
+.section_4 .s_d p{
 }
 .section_4 .s_d1{
 }
