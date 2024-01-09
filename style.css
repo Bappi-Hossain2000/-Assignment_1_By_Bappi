@@ -6,9 +6,6 @@
   margin: auto;
 }
 body{
-  /* font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'Poppins', sans-serif; */
 margin: 100px 0;
 }
 
@@ -39,7 +36,7 @@ margin: 100px 0;
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
-  line-height: 95px; /* 131.944% */
+  line-height: 95px; 
 }
 
 /* section_1 style */
@@ -130,7 +127,7 @@ margin: 100px 0;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
-  line-height: 56px; /* 175% */
+  line-height: 56px;
   text-transform: capitalize;
   padding: 50px 0;
   margin-bottom: 60px;
@@ -162,7 +159,6 @@ margin: 100px 0;
   margin-bottom: 60px;
 }
 .section_4 .d1{
-  /* background: burlywood; */
 }
 .section_4 .d1 h2{
   color: #F00;
@@ -248,24 +244,30 @@ margin: 100px 0;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 160% */
+  line-height: 32px; 
+}
+/* image section_5 style */
+.s_5_img .img1{
+  position: relative;
+}
+.s_5_img{
+  position: relative;
 }
 .s_5_img .img1{
   position: relative;
-  top: 500px;
+  top: 215px;
+  z-index: 1;
 }
 .s_5_img .img2{
   position: relative;
-  top: 312px;
-  
+  top: 4px;
+  z-index: 2;
 }
-.dis {
-  position: relative;
-  /* top: -350px; */
-  left: 200px;
-}
-.section_5 .img3{
-
+.s_5_img .dis{
+  position: absolute;
+  top: 230px;
+  z-index: 3;
+  left: 750px;
 }
 
 /* section_6 style */
@@ -326,9 +328,8 @@ margin: 100px 0;
   text-align: center;
   font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 160% */
+  line-height: 32px;
 }
 .section_7 .btn{
   padding: 50px;
@@ -354,9 +355,6 @@ margin: 100px 0;
   border: none;
 }
 
-
-
-
 /* footer_section_1 style */
 footer{
   background: #070211;
@@ -373,7 +371,7 @@ footer{
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 40px; /* 166.667% */
+  line-height: 40px; 
 }
 .footer_1 .comunity p{
   color: #FFF;
@@ -381,7 +379,7 @@ footer{
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 40px; /* 166.667% */
+  line-height: 40px; 
 }
 .footer_1 .comunity a{
   color: #FFF;
@@ -389,7 +387,7 @@ footer{
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 40px; /* 166.667% */
+  line-height: 40px; 
   text-decoration: none;
 }
 
@@ -405,19 +403,12 @@ footer{
   
 }
 .footer_2 ul li{
-  /* margin: auto auto; */
   list-style: none;
   margin: 20px;
 }
 .footer_2 ul li .first_li{
   margin: 5px 5px 5px 600px;
 }
-
-
-
-
-
-
 
 /* footer_section_3 style */
 .footer_3{
