@@ -252,14 +252,19 @@ margin: 100px 0;
 }
 .s_5_img .img1{
   position: relative;
-  top: 220px;
+  top: 500px;
 }
 .s_5_img .img2{
   position: relative;
-  top: 5px;
-
+  top: 312px;
+  
 }
-.s_5_img .{
+.dis {
+  position: relative;
+  /* top: -350px; */
+  left: 200px;
+}
+.section_5 .img3{
 
 }
 
